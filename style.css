@@ -27,12 +27,13 @@
   width: 500px;
   margin: 0 auto 0;
 }
+.new-task-form__content_input,
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task-form__content {
   display: flex;
 }
 ul {
@@ -91,7 +92,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.new-task-form__content_input {
   width: 318px;
 }
 
