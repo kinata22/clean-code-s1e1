@@ -10,8 +10,8 @@
 
 var taskInput=document.querySelector(".new-task-form__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incomplete-tasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".incomplete-tasks");//ul of incomplete-tasks
+var completedTasksHolder=document.querySelector(".completed-tasks");//ul of completed-tasks
 
 
 //New task list item
@@ -119,7 +119,7 @@ var deleteTask=function(){
 var taskCompleted=function(){
   console.log("Complete Task...");
 
-  //Append the task list item to the #completed-tasks
+  //Append the task list item to the completed-tasks ul
   var listItem=this.parentNode;
   completedTasksHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskIncomplete);

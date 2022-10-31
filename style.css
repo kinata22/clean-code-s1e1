@@ -28,6 +28,7 @@
   margin: 0 auto 0;
 }
 .new-task-form__input,
+.completed-tasks__label,
 .task {
   width: 56%;
   display: inline-block;
@@ -131,7 +132,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+.completed-tasks__label {
   text-decoration: line-through;
   color: #888;
 }
