@@ -87,7 +87,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task {
+.new-task__header {
   display: block;
   margin: 0 0 20px;
 }
