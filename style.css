@@ -27,7 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.new-task-form__content_input,
+.new-task-form__input,
 .task {
   width: 56%;
   display: inline-block;
@@ -91,7 +91,7 @@ input[type="text"]:focus {
   display: block;
   margin: 0 0 20px;
 }
-.new-task-form__content_input {
+.new-task-form__input {
   width: 318px;
 }
 
